@@ -1,5 +1,4 @@
-module Main where
+import Language.Haskell.Exts
 
-main :: IO ()
 main = do
-  putStrLn "hi"
+    print $ parseFileContentsWithComments defaultParseMode "main = print 4"

@@ -1,0 +1,5 @@
+duhast ("du hast") is a going to be a framework for manipulating source code
+at the level of the lexical token stream or at the level of the abstract
+syntax tree.  We're probably just going to work with haskell at first.  So
+we're going to connect to the haskell-src-exts lexer and parser and build
+utility functions on top of that.
